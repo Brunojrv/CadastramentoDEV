@@ -1,0 +1,74 @@
+<div class="container" style="background-color: white">
+  <div class="form">
+    <form action="capturar" (ngSubmit)="registrar()">
+      <button class="git">Cadastrar com Github</button>
+      <p class="names">Usuário Github</p>
+      <input
+        class="inputs"
+        type="text"
+        name="usuario"
+        id="usuario"
+        [(ngModel)]="user"
+      />
+
+      <p class="names">Avatar (URL)</p>
+      <input
+        class="inputs"
+        type="url"
+        name="url"
+        id="url"
+        [(ngModel)]="avatarUrl"
+      />
+
+      <p class="names">Nome</p>
+      <input
+        class="inputs"
+        type="text"
+        name="nome"
+        id="nome"
+        [(ngModel)]="name"
+      />
+
+      <P class="names">Email</P>
+      <input
+        class="inputs"
+        type="email"
+        name="email"
+        id="email"
+        [(ngModel)]="email"
+      />
+
+      <p class="names">Cidade</p>
+      <input
+        class="inputs"
+        type="text"
+        name="cidade"
+        id="cidade"
+        [(ngModel)]="cidade"
+      />
+
+      <h1 class="prof">PROFISSIONAL</h1>
+
+      <p class="names">Formação</p>
+      <input
+        class="inputs"
+        type="text"
+        name="formacao"
+        id="formacao"
+        [(ngModel)]="formacao"
+      />
+
+      <p class="names">Tecnologias</p>
+      <input
+        class="tecnologia"
+        type="text"
+        name="tecnologia"
+        id="tecnologia"
+        required
+        [(ngModel)]="tecnologia"
+      />
+
+      <button class="enviar" type="submit">Cadastrar</button>
+    </form>
+  </div>
+</div>

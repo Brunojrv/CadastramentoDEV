@@ -1,0 +1,57 @@
+.git {
+  font-family: Poppis;
+  font-size: 12px;
+  font-weight: 650;
+  color: dimgrey;
+  padding: 10px;
+  width: 100%;
+}
+
+.names {
+  font-family: Poppis;
+  font-size: 15px;
+  font-weight: 530;
+  color: dimgray;
+  margin-top: 30px;
+}
+
+.prof {
+  font-family: Poppis;
+  font-size: 18px;
+  font-weight: 650;
+  color: black;
+  padding: 40px;
+}
+
+.tecnologia {
+  height: 80px;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  padding: 75px;
+}
+
+.enviar {
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppis;
+  font-weight: 800;
+  font-size: 15px;
+  width: 100%;
+  background-color: #7130c7;
+  color: aliceblue;
+}
+.container {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+.inputs {
+  width: 97%;
+}
+.tecnologia {
+  width: 97%;
+}

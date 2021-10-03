@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  padding: 10px;
+  background-color: darkslategrey;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 600px;
+  border-radius: 20px;
+  margin-left: 30%;
+}
+#meunome {
+  font-style: oblique;
+  padding: 20px;
+  margin-left: 20%;
+}
+.principal {
+  display: flex;
+  justify-content: space-between;
+}
+
+#acessar {
+  color: chartreuse;
+  padding: 10px;
+}
+.local {
+  padding: 10px;
+}
+a {
+  color: chartreuse;
+}
